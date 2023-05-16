@@ -4,15 +4,15 @@ customElements.define('carousel-img',
 			super();
 			const template = document.createElement('template');
 			template.innerHTML = `
-<style>
+	<style>
 ::slotted(*) {
-padding-bottom: 5px;
-width: 100%;
+	padding-bottom: 5px;
+	width: 100%;
 }
-</style>
-<div class="carousel">
+	</style>
+	<div class="carousel">
 <slot></slot>
-</div>
+	</div>
 `;
 			const clone = template.content.cloneNode(true);
 			const shadowRoot = this.attachShadow({mode: 'open'});
