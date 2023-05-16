@@ -37,12 +37,13 @@ Playing around with different technologies. Should work on latest versions of mo
 
 ## @todo
 + Add image alt descriptions.
++ Add product videos.
 + Add email subscribe functionality to `<dialog>` and allow modal to close.
 + Add `<h1>` and logo under the `<dialog>` centered on page.
 + Add either an inline on hover and/or popup slide show to view all product images.
 	- Eventually the popup could allow for purchase and provide product details and variants as well.
-		* Would need at least a 'shopping cart/checkout' button floating in a corner on main page (not popup).
-		* Product search button, etc. on main page (not popup).
+		* Would need at least a 'shopping cart/checkout' button floating in a corner on main page (not in the popup).
+		* Product search button, etc. on main page.
 + Add privacy policy terms of use. Currently the site does not use cookies but at least inform about web logs and link to GitHub privacy policies.
 + Add favicons and social sharing cards
 + Add json+ld schema markup
