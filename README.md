@@ -1,6 +1,6 @@
 # blackyoonicorn.com
 Temporary home page till we find an affordable Shopify replacement or I create my own.
-Also looking for 3PL to fulfill orders for when we are travelling.
+Also looking for 3PL to fulfill orders for while we are travelling.
 
 ## Experimentation
 Playing around with different technologies. Should work on latest versions of modern browsers. Have not tested on Edge or Windows or Linux.
@@ -36,6 +36,7 @@ Playing around with different technologies. Should work on latest versions of mo
 + Yes, that is actor, Daniel Dae Kim, at home in Hawaii, unboxing our products and holding our book, [*The Korean--Single and Obese: Then Kimchi Changed Everything!*](https://thekoreanbook.com) We did not pay him or ask him to post a reel on Instagram and as he says, he never does unboxings.
 
 ## @todo
++ Add image alt descriptions.
 + Add email subscribe functionality to `<dialog>` and allow modal to close.
 + Add `<h1>` and logo under the `<dialog>` centered on page.
 + Add either an inline on hover and/or popup slide show to view all product images.
