@@ -10,7 +10,7 @@ Playing around with different technologies. Should work on latest versions of mo
 + Layout is CSS grid and flexbox using slotted web components and shadow DOM now that even Safari is starting to add native support for web components. 
 + JS is used only to load native browser web components
 + Using [HTML 5.2](https://html.spec.whatwg.org/) `<dialog>` element for native modal dialog box to simply center the message box horizontally and vertically on top of the page since it is finally [supported in browsers](https://caniuse.com/dialog)
-+ Too many product photos! Using [imagekit.io](https://imagekit.io) media optimization servers with `Accept-CH` client hints headers for automatic PNG compression & WebP conversion to deliver optimized images based on device, screen size, and network speed.
++ Too many product photos! Using [imagekit.io](https://imagekit.io) media optimization servers with `Accept-CH` client hints headers for automatic PNG compression & WebP conversion to deliver optimized responsive images based on device resolution, screen size, and network speed.
 + Since I have so many image https requests I decided not to use external stylesheets or font files.
 + Fonts are subsetted to only include characters used (plus a few extra for future experimentation) and base64 encoded
 + Using GitHub Pages for free hosting, automatic https and gzip. 
